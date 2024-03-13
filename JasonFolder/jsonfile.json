@@ -1,0 +1,553 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-08T07:23:46.419Z",
+        "line": 3,
+        "name": "validate the amazon login with username and password",
+        "description": "",
+        "id": ";validate-the-amazon-login-with-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2667308100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the amazon brows and hits url",
+            "match": {
+              "location": "AmazonDefn.launch_the_amazon_brows_and_hits_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.112)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da509d26fc0290a179660f838e837a1f, findElement {value\u003demail, using\u003dname}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60574/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: da509d26fc0290a179660f838e837a1f\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat com.amazonBaseAndPojo.BaseAmazon.enterData(BaseAmazon.java:26)\r\n\tat com.definitionPack.AmazonDefn.pass_the_value_of_email_or_number(AmazonDefn.java:29)\r\n\tat ✽.Pass the value of email or number(file:src/test/resources/amazon.feature:5)\r\n",
+              "duration": 52919000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Pass the value of email or number",
+            "match": {
+              "location": "AmazonDefn.pass_the_value_of_email_or_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 854400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clic the continue button",
+            "match": {
+              "location": "AmazonDefn.clic_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Pass the value of password",
+            "match": {
+              "location": "AmazonDefn.pass_the_value_of_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 863000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click the signin button",
+            "match": {
+              "location": "AmazonDefn.click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the amazon browser",
+            "match": {
+              "location": "AmazonDefn.close_the_amazon_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "validate login functionality of amazon",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazon.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-08T07:23:49.201Z",
+        "line": 2,
+        "name": "To validate login by using invalid username and valid password",
+        "description": "",
+        "id": "to-validate-login-fuctionality-of-facebook-application;to-validate-login-by-using-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1835906100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the browser and hit the url",
+            "match": {
+              "location": "DefinitionClass.to_launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82755600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To pass the data in emailfield",
+            "match": {
+              "location": "DefinitionClass.to_pass_the_data_in_emailfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Kevin",
+                  "Johnson",
+                  "Muruga",
+                  "Mano"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88412000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass the data in passwordfield",
+            "match": {
+              "location": "DefinitionClass.to_pass_the_data_in_passwordfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "aaaaa",
+                  "bbbbbb",
+                  "cccccc",
+                  "ddddd",
+                  "eeeee",
+                  "ffff"
+                ]
+              },
+              {
+                "cells": [
+                  "22222",
+                  "333333",
+                  "444444",
+                  "55555",
+                  "66666",
+                  "7777"
+                ]
+              },
+              {
+                "cells": [
+                  "sjked",
+                  "1234hk",
+                  "cncjfk",
+                  "45b6b",
+                  "nsncj",
+                  "54bk"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59738800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the login button",
+            "match": {
+              "location": "DefinitionClass.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170647400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To close the browser",
+            "match": {
+              "location": "DefinitionClass.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T07:23:51.446Z",
+        "line": 24,
+        "name": "To validate login by using negative and positve multiple data parallely",
+        "description": "",
+        "id": "to-validate-login-fuctionality-of-facebook-application;to-validate-login-by-using-negative-and-positve-multiple-data-parallely;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1939402900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch the browser and hit the url",
+            "match": {
+              "location": "ExmplClass.launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87375600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "pass the data in\"kevin123\" emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kevin123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79710600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pass the data in \"kevin\" passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kevin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75012300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click the login button",
+            "match": {
+              "location": "ExmplClass.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133857600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "ExmplClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T07:23:53.779Z",
+        "line": 25,
+        "name": "To validate login by using negative and positve multiple data parallely",
+        "description": "",
+        "id": "to-validate-login-fuctionality-of-facebook-application;to-validate-login-by-using-negative-and-positve-multiple-data-parallely;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1800636900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch the browser and hit the url",
+            "match": {
+              "location": "ExmplClass.launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69576000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "pass the data in\"johnson123\" emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johnson123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83264700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pass the data in \"johnson\" passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johnson\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62385800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click the login button",
+            "match": {
+              "location": "ExmplClass.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161377700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "ExmplClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T07:23:55.960Z",
+        "line": 26,
+        "name": "To validate login by using negative and positve multiple data parallely",
+        "description": "",
+        "id": "to-validate-login-fuctionality-of-facebook-application;to-validate-login-by-using-negative-and-positve-multiple-data-parallely;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1973098800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch the browser and hit the url",
+            "match": {
+              "location": "ExmplClass.launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108530600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "pass the data in\"muruga123\" emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muruga123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101784000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pass the data in \"muruga\" passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muruga\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94435000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click the login button",
+            "match": {
+              "location": "ExmplClass.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186696900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "ExmplClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T07:23:58.426Z",
+        "line": 27,
+        "name": "To validate login by using negative and positve multiple data parallely",
+        "description": "",
+        "id": "to-validate-login-fuctionality-of-facebook-application;to-validate-login-by-using-negative-and-positve-multiple-data-parallely;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029608200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch the browser and hit the url",
+            "match": {
+              "location": "ExmplClass.launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94831000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "pass the data in\"saran123\" emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saran123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79992000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pass the data in \"saran\" passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saran\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ExmplClass.pass_the_data_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51397900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click the login button",
+            "match": {
+              "location": "ExmplClass.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158176600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "ExmplClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login fuctionality of Facebook application",
+    "description": "",
+    "id": "to-validate-login-fuctionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/fbLogin.feature",
+    "tags": []
+  }
+]
